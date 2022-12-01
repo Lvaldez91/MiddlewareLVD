@@ -2,7 +2,7 @@
 $basecolor-body:#F0F3F4;
 $basecolor-header:#17202A;
 $basecolor-navbar:#17202A;
-$basecolor-footer:#F0F3F4;
+$basecolor-footer: #D0D3D4;
 $basecolor-borde-main:#0E6251;
 $basecolor-borde-gray:#E5E7E9;
 $color-text-white: #FEFEFE;
@@ -41,9 +41,9 @@ app-header {
 }
 
 app-navbar {
+    background-color:$basecolor-navbar;
     grid-area: nav;
     margin-left: 0.0rem;
-    background-color:$basecolor-navbar;
 }
 
 app-privacy-policy,
